@@ -5,7 +5,7 @@ function component() {
 	var element = document.createElement("div");
 	var btn = document.createElement("button");
 	
-	element.innerHTML = _.join(["Hello", "webapck谈感情"], " ");
+	element.innerHTML = _.join(["您好", "webapck！"], " ");
 	
 	btn.innerHTML = "Click me and check the console!";
 	btn.onclick = printMe;
